@@ -20,9 +20,6 @@ public class Lab_3_4 {
 		 for(String i:product) {
 			 System.out.println(i);
 		 }
-		 
-		 
-		
 			
 	}
 
