@@ -135,10 +135,11 @@ class current extends account{
     }
 }
 
-class detail {
+class detail  {
 	Scanner sc = new Scanner(System.in);
 	account a1;
-	
+	saving s1;
+	current c1;
 	 detail(String name, long accnumber, double balance){
 		 a1=new account(name,accnumber,balance);
 	}
@@ -181,11 +182,10 @@ class detail {
 
 public class lab_21 {
 	public static void main(String[] args) {
-
-	
 		
 		detail d = new detail("Smith",00000001,2000);
 		d.menu();
+		
 		
 	}
 }
