@@ -25,11 +25,11 @@ public class TC_datetime {
 		System.out.println("LastMonth: " + now.isLeapYear());
 		System.out.println("move to 30th day of month:"+now.withDayOfMonth(30));
 		
- 		Period period=Independence.until(now);
- 		Instant currenttime1=Instant.now();
-		System.out.println("Period:"+period);
-		System.out.println("Days:"+period.get(ChronoUnit.DAYS));
-		System.out.println("Months:"+period.get(ChronoUnit.MONTHS));
+// 		Period period=Independence.until(now);
+// 		Instant currenttime1=Instant.now();
+//		System.out.println("Period:"+period);
+//		//System.out.println("Days:"+period.get(ChronoUnit.DAYS));
+//		//System.out.println("Months:"+period.get(ChronoUnit.MONTHS));
 		
 		ZonedDateTime ct=ZonedDateTime.now();
 		ZonedDateTime ctinparis=ZonedDateTime.now(ZoneId.of("Europe/Paris"));

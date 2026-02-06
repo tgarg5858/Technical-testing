@@ -72,7 +72,7 @@ public class lab_5_all {
 		String confirm = dr.findElement(By.xpath("//*[@id=\"content\"]/div/div/a"	)).getText();
 		System.out.println(confirm);
 		dr.findElement(By.xpath("//*[@id=\"content\"]/div/div/a")).click();
-		dr.findElement(By.xpath("//*[@id=\"content\"]/ul[2]/li[1]/a")).click();
+//		dr.findElement(By.xpath("//*[@id=\"content\"]/ul[2]/li[1]/a")).click();
 }
 
 }

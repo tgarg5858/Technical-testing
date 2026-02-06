@@ -8,8 +8,8 @@ public class lab7 {
 		long no = sc.nextLong();
 		
 		System.out.println(no);
-		person p = new person("tushar","garg",'M',no);
-		System.out.println(p.getSecondname());
+		//person p = new person("tushar","garg",'M',no);
+		//System.out.println(p.getSecondname());
 		
 		
 	}

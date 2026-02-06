@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ORHRM Automation Suite" verbose="1">
+
+  <test name="All Tests In Package">
+    <packages>
+      <!-- Runs all @Test classes under this package -->
+      <package name="com.orhrm.tests.*"/>
+    </packages>
+  </test>
+
+</suite>

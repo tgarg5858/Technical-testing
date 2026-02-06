@@ -11,5 +11,9 @@ public class TC001 {
 		try {
 			temp=width*height*depth;
 		}
+		catch(Exception e) {
+			
+		}
+		return temp;
 	}
 }

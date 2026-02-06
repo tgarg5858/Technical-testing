@@ -1,15 +1,20 @@
 package pack1;
 
 public class TC002 {
-	public int num= 20;
+	public static int num= 20;
 	public static void main(String[] args) {
 		
 		
-		if(num%2==0) {
-			System.out.println("even number");
-		}
-		else {
-			System.out.println("even number");
+		try {
+			if(num%2==0) {
+				System.out.println("even number");
+			}
+			else {
+				System.out.println("even number");
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 		
